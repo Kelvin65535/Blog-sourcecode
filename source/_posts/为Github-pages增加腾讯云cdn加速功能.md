@@ -15,7 +15,7 @@ tags:
 
 你需要一个已经通过备案的个人域名来接入腾讯云的cdn服务，该域名可同时用于访问你的GitHub pages。
 
-在cdn控制台中配置加速服务，域名为你的博客域名，源站类型设为域名，源站设置为你的GitHub pages访问域名，这样可以免除获取GitHub IP地址的麻烦。
+在cdn控制台中配置加速服务，域名为你的博客域名，源站类型设为域名，源站设置为由GitHub提供的GitHub pages访问域名，这样可以免除获取GitHub IP地址的麻烦。
 
 ![CDN域名配置](为Github-pages增加腾讯云cdn加速功能/CDN域名配置.png)
 
@@ -33,6 +33,20 @@ tags:
 
 由于使用了国内cdn加速，在国外访问博客域名会很慢，因此可在CNAME配置中为国内、国外区域分别配置为cdn和GitHub的CNAME，从而达到更好的访问效果。
 
+![CNAME配置](为Github-pages增加腾讯云cdn加速功能/CNAME设置.png)
+
 ## 验证
 
 在命令行ping加速域名，若域名的后缀为cdntip.com或tcdn.qq.com则cdn加速成功。
+
+![ping测试](为Github-pages增加腾讯云cdn加速功能/ping测试.png)
+
+使用 [站长之家的网站ping测试]("http://ping.chinaz.com/") 来对比cdn加速的效果，在使用cdn加速前：
+
+![未使用cdn](为Github-pages增加腾讯云cdn加速功能/未使用cdn.png)
+
+使用cdn加速后：
+
+![使用cdn](为Github-pages增加腾讯云cdn加速功能/使用cdn.png)
+
+可以看见祖国山河一片绿，形势一片大好（雾）。
