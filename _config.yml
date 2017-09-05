@@ -71,3 +71,10 @@ deploy:
   type: git
   repo: git@github.com:Kelvin65535/Kelvin65535.github.io.git
   branch: master
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
