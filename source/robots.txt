@@ -22,5 +22,5 @@ Disallow: /fancybox/
 
 
 
-Sitemap: http://yejiayong.cn/sitemap.xml
-Sitemap: http://yejiayong.cn/baidusitemap.xml
+Sitemap: http://yejiayong.com/sitemap.xml
+Sitemap: http://yejiayong.com/baidusitemap.xml
