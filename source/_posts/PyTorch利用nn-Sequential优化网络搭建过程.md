@@ -145,3 +145,7 @@ class MobileNet(nn.Module):
         x = self.fc(x)
         return x
 ```
+
+关于怎么为模块列表添加名字，参考：
+
+https://discuss.pytorch.org/t/how-can-i-give-a-name-to-each-module-in-modulelist/10547/5
