@@ -25,7 +25,7 @@ GitHub Webhooks 文档：https://developer.github.com/webhooks/
 
 打开Github项目仓库页面-Settings-Webhooks，进入Webhooks配置页面，点击Add Webhooks新增一个webhook，如图：
 
-![新增Webhooks](利用GitHub-Webhooks实现自动化部署/1.png)
+![新增Webhooks](1.png)
 
 配置项如下：
 
@@ -46,7 +46,7 @@ Secret：可选，用于服务器对webhook请求进行校验。若该项被设�
 
 一个典型的请求如下：
 
-![新增Webhooks](利用GitHub-Webhooks实现自动化部署/2.png)
+![新增Webhooks](2.png)
 
 ## 配置服务器
 

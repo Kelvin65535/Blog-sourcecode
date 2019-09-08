@@ -61,4 +61,4 @@ rosrun rviz rviz
 
 这样就可以在`/camera/rgb/image_color` topic上接收到RGB图片，也可以在rviz看到其他节点的深度图像。
 
-![demo](Kinect摄像头接入ROS/demo.png)
+![demo](demo.png)
